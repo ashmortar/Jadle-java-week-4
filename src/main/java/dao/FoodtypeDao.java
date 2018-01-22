@@ -13,7 +13,7 @@ public interface FoodtypeDao {
     //read
     List<Foodtype> getAll();
 
-    List <Foodtype> getAllFoodtypesByRestaurant (int restaurantId); // D
+//    List <Foodtype> getAllFoodtypesByRestaurant (int restaurantId); // D
 
 
     //update

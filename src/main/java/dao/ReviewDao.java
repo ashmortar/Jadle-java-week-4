@@ -17,5 +17,5 @@ public interface ReviewDao {
 
     //update
     //delete
-    void delete(int reviewId); // L
+    void deleteById(int reviewId); // L
 }

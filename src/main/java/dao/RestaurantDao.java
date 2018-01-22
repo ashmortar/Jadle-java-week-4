@@ -11,18 +11,18 @@ public interface RestaurantDao {
 
     //create
     void add (Restaurant restaurant); // J
-    void addRestaurantToFoodType(Restaurant restaurant, Foodtype foodtype); // D & E
+    //void addRestaurantToFoodType(Restaurant restaurant, Foodtype foodtype); // D & E
 
 
     //read
-
-    List<Restaurant> getAllByZipcode(); // A
+    List<Restaurant> getAll();
+    List<Restaurant> getAllByZipcode(String zipcode); // A
     Restaurant findById(int id); // B
 
     int averageRating (int restaurantId); // G
 
 
-    List<Restaurant> getAllRestaurantsByFoodType(int foodtypeId); //E
+    //List<Restaurant> getAllRestaurantsByFoodType(int foodtypeId); //E
 
 
 
