@@ -11,7 +11,7 @@ public interface RestaurantDao {
 
     //create
     void add (Restaurant restaurant); // J
-    //void addRestaurantToFoodType(Restaurant restaurant, Foodtype foodtype); // D & E
+    void addRestaurantToFoodtype(Restaurant restaurant, Foodtype foodtype); // D & E
 
 
     //read
@@ -21,8 +21,7 @@ public interface RestaurantDao {
 
     int averageRating (int restaurantId); // G
 
-
-    //List<Restaurant> getAllRestaurantsByFoodType(int foodtypeId); //E
+    List<Foodtype> getAllFoodtypesForARestaurant(int restaurantId);; //E
 
 
 
