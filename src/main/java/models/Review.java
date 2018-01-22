@@ -1,13 +1,6 @@
 package models;
 
-import java.time.LocalDateTime;
-
-/**
- * Created by epicodus_staff on 7/25/17.
- */
 public class Review {
-
-    //comment to persist across branches!!!
 
     private int id;
     private String writtenBy;
